@@ -1,11 +1,10 @@
 import Events from "./events";
-
+import classNames from "classnames";
 
 export default function Dropdown({classname}) {
-  const addClassname = classname ? `${classname}` : "";
   return (
     <>
-      <ul className={`gap-3 ${addClassname}`}>
+      <ul className={classNames("gap-3", classname)}>
         <Events>Tetipendece</Events>
         <Events>Troposphere</Events>
         <Events>Enforian</Events>

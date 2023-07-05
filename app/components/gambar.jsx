@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
+import classNames from "classnames";
 // import logo from "../../public/img/logo.png";
 
 export default function Gambar ({link,image,w,h,alt, gambarClassname}) {
-    const addGambarClassname = gambarClassname ? `${gambarClassname}` : "";
   return (
     <Link href={link} className="hover:scale-110">
       <Image
@@ -11,7 +11,7 @@ export default function Gambar ({link,image,w,h,alt, gambarClassname}) {
         width={w}
         height={h}
         alt={alt}
-        className={addGambarClassname}
+        className={classNames(gambarClassname)}
       />
     </Link>
   );

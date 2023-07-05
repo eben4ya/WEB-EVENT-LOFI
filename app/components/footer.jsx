@@ -26,7 +26,7 @@ export default function Footer(options) {
       <div className="container mx-auto flex w-10/12">
         <div className="w-8/12 py-20">
           <div className="flex items-center ">
-            <Logo className="hover:scale-110" />
+            <Logo className="hover:scale-110"/>
             <h3 className={`${brice.variable} font-brice text-white text-3xl`}>
               Lustrum DTETI FT UGM
             </h3>
