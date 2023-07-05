@@ -7,7 +7,7 @@ export default function Navbar () {
     <>
       <div className="flex items-center w-11/12 mx-auto">
         <div className="w-3/12">
-          <Logo />
+          <Logo className="hover:scale-110"/>
         </div>
         <div className="w-6/12">
           <Nav />

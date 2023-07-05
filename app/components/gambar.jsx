@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Gambar ({link,image,w,h,alt, gambarClassname}) {
     const addGambarClassname = gambarClassname ? `${gambarClassname}` : "";
   return (
-    <Link href={link}>
+    <Link href={link} className="hover:scale-110">
       <Image
         src={image}
         width={w}

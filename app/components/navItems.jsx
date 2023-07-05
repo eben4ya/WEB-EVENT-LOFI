@@ -5,7 +5,7 @@ export default function NavItems({ children, href }) {
     <li>
       <Link
         href={href}
-        className="text-white text-lg text-opacity-60 font-semibold "
+        className="transition text-white text-lg font-semibold hover:text-opacity-60 "
       >
         {children}
       </Link>

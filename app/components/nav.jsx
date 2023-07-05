@@ -22,12 +22,18 @@ export default function Nav() {
             <IconDropdown />
           </div>
 
-          {openEvents ? <Dropdown classname="border rounded-lg p-3 absolute mt-8" /> : null}
+          {openEvents ? (
+            <Dropdown classname="border rounded-lg p-3 absolute mt-8" />
+          ) : null}
         </div>
         <NavItems href="/"> FAQ </NavItems>
         <div onClick={() => setOpenNotif((prev) => !prev)}>
-          <IconNotif />
-          {openNotif ? <Dropdown classname="border rounded-lg p-3 absolute"/> : null}
+          <span className="hover:opacity-60">
+            <IconNotif />
+          </span>
+          {openNotif ? (
+            <Dropdown classname="border rounded-lg p-3 absolute" />
+          ) : null}
         </div>
       </ul>
     </>
