@@ -23,7 +23,7 @@ export const brice = primaryFont({
 export default function Footer(options) {
   return (
     <footer className="bg-hero ">
-      <div className="container mx-auto flex w-10/12">
+      <div className="container mx-auto flex w-10/12 ">
         <div className="w-8/12 py-20">
           <div className="flex items-center ">
             <Logo className="hover:scale-110"/>
