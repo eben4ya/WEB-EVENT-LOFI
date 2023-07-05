@@ -10,11 +10,11 @@ export default function Nav() {
   const [openNotif, setOpenNotif] = useState(false);
   return (
     <>
-      <ul className="flex justify-center space-x-10">
+      <ul className="flex justify-center space-x-10 ">
         <NavItems href="/"> Home </NavItems>
         <NavItems href="/"> About </NavItems>
         <div
-          className="flex flex-col "
+          className="flex flex-col"
           onClick={() => setOpenEvents((prev) => !prev)}
         >
           <div className="flex flex-row">
@@ -22,12 +22,12 @@ export default function Nav() {
             <IconDropdown />
           </div>
 
-          {openEvents ? <Dropdown classname="border rounded-lg p-3" /> : null}
+          {openEvents ? <Dropdown classname="border rounded-lg p-3 absolute mt-8" /> : null}
         </div>
         <NavItems href="/"> FAQ </NavItems>
         <div onClick={() => setOpenNotif((prev) => !prev)}>
           <IconNotif />
-          {openNotif ? <Dropdown classname="border rounded-lg p-3"/> : null}
+          {openNotif ? <Dropdown classname="border rounded-lg p-3 absolute"/> : null}
         </div>
       </ul>
     </>
