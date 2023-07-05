@@ -3,7 +3,7 @@ import TitleKiri from "./titleKiri";
 
 export default function AboutUs() {
   return (
-    <section className="py-20" bg-slate-50>
+    <section className="py-20" bg-slate-50 id="about-us">
       <div className="container mx-auto  ">
         <div className="flex w-8/12 mx-auto ">
           <TitleKiri

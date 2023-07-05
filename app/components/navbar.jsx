@@ -13,7 +13,7 @@ export default function Navbar () {
           <Nav />
         </div>
         <div className="w-3/12 text-right">
-          <Button variant="outline-yellow">OPEN DONASI</Button>
+          <Button variant="outline-yellow" href="https://forms.gle/ctmnMsgM7neB3wLp8">OPEN DONASI</Button>
         </div>
       </div>
     </>

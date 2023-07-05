@@ -25,8 +25,8 @@ export default function Home() {
       <AboutUs/>
       <BriefHistory />
       <Testimoni />
-      <MediaPartner/>
-      <Footer />
+      <MediaPartner />
+      <Footer/>
     </>
   );
 }
